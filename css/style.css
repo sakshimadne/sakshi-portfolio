@@ -143,6 +143,42 @@ body{
 .skill{
     background-color: rgb(234, 234, 249);
 }
+.profile-img {
+  width: 260px;        /* CONTROL SIZE HERE */
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.half-img-wrapper {
+  width: 260px;
+  height: 320px;       /* visible area */
+  overflow: hidden;    /* hides rest */
+}
+
+.half-profile-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.circle-img-wrapper {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  overflow: hidden;          /* CUTS the image */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;   /* shows upper body */
+  background: #f5f5f5;       /* optional */
+}
+
+.circle-profile-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
 .progress-card{
     padding: 12% 10% 10% 15%;
     background-color: #fff;
@@ -383,4 +419,60 @@ footer .link-group a:hover{
     background-color: #fca61f;
     color: #fff;
     animation: pulse 3s infinite;
+}
+
+
+
+/* ============================= */
+/* INDUSTRY PROJECTS FIX */
+/* ============================= */
+
+.industry-projects {
+    background-color: #fafafa;
+}
+
+.industry-projects .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.industry-projects .col-md-4 {
+    display: flex;
+}
+
+.industry-card {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 14px;
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.industry-card h4 {
+    color: #3f396d;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.industry-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    flex-grow: 1; /* IMPORTANT FOR EQUAL HEIGHT */
+}
+
+.industry-card .confidential {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6f34fe;
+}
+
+.industry-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
 }
