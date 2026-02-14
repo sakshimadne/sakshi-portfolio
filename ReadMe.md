@@ -1,38 +1,4 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/pawantech12/portfolio-website)
-  ![GitHub stars](https://img.shields.io/github/stars/pawantech12/portfolio-website?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/pawantech12/portfolio-website?style=social)
 
-  <br />
-
-  <h2 align="center">Responsive Portfolio Website</h2>
-
-  Responsive Portfolio Website using HTML, CSS, and JavaScript.
-
-  <a href="https://pawantech12.github.io/portfolio-website/"><strong>➥ Live Demo</strong></a>
-
-</div>
-
-<br />
-
-### Desktop Preview
-
-https://github.com/pawantech12/portfolio-website/assets/118673866/0322c419-a173-4aa9-a360-b09bd7bd24aa
-
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* You Should Know Basic or Intermediate of HTML ,CSS and JavaScript
-* This website is developed by bootstrap 5 copy below code :
-```
-<!--- Bootstrap 5 css CDN Link --->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-
-<!-- bootstrap javascript cdn link  -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-```
 
 * JQuery CDN LInk :
 ```
@@ -118,25 +84,11 @@ AOS.init({
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 ```
 
-### Run Locally
 
-To run **Personal Portfolio** locally, run this command on your git bash:
 
-Linux and macOS:
 
-```bash
-sudo git clone https://github.com/pawantech12/portfolio-website.git
-```
 
-Windows:
 
-```bash
-git clone https://github.com/pawantech12/portfolio-website.git
-```
-
-### Contact
-
-If you want to contact with me you can reach me at [Instagram](https://www.instagram.com/codewithpawan/).
 
 ### License
 

@@ -5,35 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio - Sakshi Madne</title>
+<meta name="description" content="Frontend & MERN Stack Developer Portfolio - Sakshi Madne. React, Node.js, MongoDB Developer with Industry Experience.">
+<meta name="keywords" content="React Developer, MERN Stack Developer, Frontend Developer, Node.js Developer, Sakshi Madne Portfolio">
+<meta name="author" content="Sakshi Madne">
+<meta name="robots" content="index, follow">
 
-    <!-- bootstrap css cdn link  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
 
-    <!-- custom css file -->
+
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- google font -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <!-- bootstrap icons -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
     />
 
-    <!-- AOS animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </head>
 
   <body>
-    <!-- NAVBAR -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
       <div class="container-fluid px-5">
         <a class="navbar-brand fw-bold fs-2" style="color: #3f396d">Portfolio</a>
@@ -49,10 +54,20 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav gap-4">
             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+       
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                 <li class="nav-item"><a class="nav-link" href="#service">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#personal-projects">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+  <a class="nav-link" 
+     href="https://drive.google.com/file/d/1Qp0R79zR3htXVmed6tj3kKL3FEiAqhgA/view?usp=sharing" 
+>
+  Resume
+  </a>
+</li>
+
+
           </ul>
         </div>
         <button  class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">
@@ -64,11 +79,10 @@
       </div>
     </nav>
 
-    <!-- HERO / PROFILE -->
 <section class="home pt-5 pb-5" id="home">
   <div class="row justify-content-evenly align-items-center">
     
-    <!-- TEXT SECTION -->
+
     <div class="col-10 col-md-6" data-aos="slide-right">
       <h2 style="color: #3f396d">
         Hello, I’m <br />
@@ -89,15 +103,6 @@
       </button>
     </div>
 
-    <!-- IMAGE SECTION (PROPER COLUMN) -->
-    <!-- <div class="col-10 col-md-4 d-none d-md-flex justify-content-center">
-      <img
-        src="resume/file_00000000f3dc71fa80b0525ecc00ac7d.png"
-        alt="Sakshi Madne"
-        class="profile-img"
-      />
-    </div> -->
-
   <div class="col-10 col-md-4 d-none d-md-flex justify-content-center">
   <div class="circle-img-wrapper">
     <img
@@ -113,13 +118,57 @@
   </div>
 </section>
 
+ <section class="skill " id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5" data-aos="slide-left">
+          <small>About Me</small>
+          <!-- <h3>Developer with Industry Experience</h3> -->
+           <h3>
+  <i class="bi bi-person-workspace me-2"></i>
+  Developer with Industry Experience
+</h3>
 
-    <!-- SERVICES -->
-    <section class="expertise mt-5" id="service">
-      <div class="heading text-center">
-        <small>My Expertise</small>
-        <h3>What I Do</h3>
+
+          <p class="text-muted">
+            I completed my internship at <strong>Elansol Technology, Pune</strong>,
+            where I worked on frontend features and bug fixes. Later, I joined
+            <strong>Braincells Technology Pvt Ltd, Bangalore</strong> as a
+            full-time developer and contributed to large-scale industrial
+            applications.
+          </p>
+
+          <p class="text-muted">
+            I enjoy building real-world applications, learning best practices,
+            and continuously improving my skills in React, backend APIs, and
+            system design.
+          </p>
+
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <a
+              href="resume/Sakshi_Madne_ATS_Resume (1).pdf"
+              download
+              style="text-decoration: none; color: #fff"
+              >Download CV</a
+            >
+          </button>
+        </div>
       </div>
+    </section>
+
+  
+    <section class="expertise " id="service">
+      <div class="heading text-center">
+   
+
+        <small>
+  <i class="bi bi-stars me-1"></i>My Expertise
+</small>
+<h3>
+  <i class="bi bi-gear-fill me-2"></i>What I Do
+</h3>
+
+      </div>
+
 
       <div class="row justify-content-evenly mt-5">
         <div class="col-10 col-md-4" data-aos="fade-up">
@@ -157,88 +206,222 @@
       </div>
     </section>
 
-    <!-- ABOUT / SKILLS -->
-    <section class="skill mt-5 py-5" id="about">
-      <div class="row justify-content-evenly">
-        <div class="col-10 col-md-5" data-aos="slide-left">
-          <small>About Me</small>
-          <h3>Developer with Industry Experience</h3>
 
-          <p class="text-muted">
-            I completed my internship at <strong>Elansol Technology, Pune</strong>,
-            where I worked on frontend features and bug fixes. Later, I joined
-            <strong>Braincells Technology Pvt Ltd, Bangalore</strong> as a
-            full-time developer and contributed to large-scale industrial
-            applications.
-          </p>
+   
 
-          <p class="text-muted">
-            I enjoy building real-world applications, learning best practices,
-            and continuously improving my skills in React, backend APIs, and
-            system design.
-          </p>
 
-          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
-            <a
-              href="resume/Sakshi_Madne_ATS_Resume (1).pdf"
-              download
-              style="text-decoration: none; color: #fff"
-              >Download CV</a
-            >
-          </button>
-        </div>
-      </div>
-    </section>
 
-    <!-- PROJECTS -->
-    <!-- <section class="portfolio" id="portfolio">
-      <div class="heading text-center pt-5">
-        <small>Professional Work</small>
-        <h3>Industry Projects</h3>
-      </div>
-
-      <div class="row justify-content-evenly px-4 mt-4">
-        <div class="col-md-4 col-10" data-aos="fade-up">
-          <div class="card p-3">
-            <h4>SOP Management System</h4>
-            <p class="text-muted">
-              Developed modules for managing Standard Operating Procedures in
-              an industrial environment. Implemented role-based access,
-              document workflows, and frontend dashboards using React.
-              <br /><strong>(Confidential Project)</strong>
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-10" data-aos="fade-up">
-          <div class="card p-3">
-            <h4>ERP System</h4>
-            <p class="text-muted">
-              Worked on enterprise ERP modules including UI development,
-              API integration, and data handling. Improved performance and
-              fixed production issues.
-              <br /><strong>(Confidential Project)</strong>
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-10" data-aos="fade-up">
-          <div class="card p-3">
-            <h4>LMS Platform</h4>
-            <p class="text-muted">
-              Contributed to Learning Management System features such as
-              course dashboards, user flows, and backend API integration.
-              <br /><strong>(Confidential Project)</strong>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <section class="industry-projects py-5">
+<!-- ================= EXPERIENCE ================= -->
+<section class="experience-section ">
   <div class="container">
-    <div class="row g-4">
 
+  
+    <div class="text-center mb-5">
+  <h5 class="section-subtitle">
+    <i class="bi bi-graph-up-arrow me-2"></i>Career Journey
+  </h5>
+  <h2 class="section-title-dark">
+    <i class="bi bi-briefcase-fill me-2"></i>Work Experience
+  </h2>
+</div>
+
+
+    <div class="timeline-container">
+
+      <div class="timeline-item">
+
+        <!-- <h4>Frontend Developer</h4> -->
+         <h4>
+  
+  <i class="bi bi-laptop me-2"></i>
+  Full Stack Developer
+</h4>
+
+        <h6>Braincells Technology Pvt Ltd</h6>
+        <span>Full-Time | Bangalore</span>
+        <p>
+          Worked on enterprise-level ERP, LMS, and SOP management systems.
+          Built UI modules, integrated APIs, improved performance and resolved production issues.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+   
+         <h4>
+  <i class="bi bi-laptop me-2"></i>
+ Full Stack Developer Intern
+</h4>
+
+        <h6>Elansol Technology</h6>
+        <span>Internship | Pune</span>
+        <p>
+          Developed frontend features, fixed UI bugs, and contributed to live production deployments.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="tech-skills ">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h5 class="section-subtitle">
+         <i class="bi bi-cpu-fill me-2"></i>My Stack
+      </h5>
+      <h2 class="section-title-dark">
+         <i class="bi bi-terminal-fill me-2"></i>Technical Skills
+      </h2>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="skill-card text-center">
+          <i class="devicon-html5-plain colored"></i>
+          <p>HTML</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="skill-card text-center">
+          <i class="devicon-css3-plain colored"></i>
+          <p>CSS</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="skill-card text-center">
+          <i class="devicon-javascript-plain colored"></i>
+          <p>JavaScript</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="skill-card text-center">
+          <i class="devicon-typescript-plain colored"></i>
+          <p>TypeScript</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="skill-card text-center">
+          <i class="devicon-nodejs-plain colored"></i>
+          <p>Node.js</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="skill-card text-center">
+          <i class="devicon-express-original"></i>
+          <p>Express</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="skill-card text-center">
+          <i class="devicon-mongodb-plain colored"></i>
+          <p>MongoDB</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2">
+  <div class="skill-card text-center">
+    <i class="devicon-firebase-plain colored"></i>
+    <p>Firebase</p>
+  </div>
+</div>
+
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="skill-card text-center">
+          <i class="devicon-mysql-plain colored"></i>
+          <p>SQL</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="skill-card text-center">
+          <i class="devicon-jira-plain colored"></i>
+          <p>Jira</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= IMPACT SECTION ================= -->
+<section class="achievements ">
+  <div class="container">
+    <div class="text-center mb-5">
+      <!-- <h5 class="section-subtitle">Professional Impact</h5>
+      <h2 class="section-title-dark">Achievements & Results</h2> -->
+
+      <h5 class="section-subtitle">
+  <i class="bi bi-trophy-fill me-2"></i>Professional Impact
+</h5>
+<h2 class="section-title-dark">
+  <i class="bi bi-bar-chart-fill me-2"></i>Achievements & Results
+</h2>
+
+    </div>
+
+    <div class="row text-center g-4">
+      <div class="col-md-3">
+        <div class="impact-box">
+          <h3>30%</h3>
+          <p>Performance Optimization</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="impact-box">
+          <h3>15+</h3>
+          <p>Modules Delivered</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="impact-box">
+          <h3>500+</h3>
+          <p>Bugs Resolved</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="impact-box">
+          <h3>3</h3>
+          <p>Enterprise Applications</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="personal-projects"  class="personal-projects py-5">
+<div class="container">
+
+
+    <div class="text-center mb-4">
+      <!-- <h5 class="section-subtitle">Web Development Projects</h5>
+     
+      <h2 class="section-title-dark">Industry Projects</h2> -->
+      <h5 class="section-subtitle">
+  <i class="bi bi-folder2-open me-2"></i>Web Development Projects
+</h5>
+<h2 class="section-title-dark">
+  <i class="bi bi-building me-2"></i>Industry Projects
+</h2>
+
+    </div>
+
+
+    <div class="row g-4 mb-4">
       <div class="col-md-4">
         <div class="industry-card">
           <h4>SOP Management System</h4>
@@ -273,23 +456,21 @@
           <span class="confidential">(Confidential Project)</span>
         </div>
       </div>
+    </div>
+
+ <div class="text-center mb-4">
+    
+     
+      <!-- <h2 class="section-title-dark">Personal Projects</h2> -->
+       <h2 class="section-title-dark">
+  <i class="bi bi-lightbulb-fill me-2"></i>Personal Projects
+</h2>
 
     </div>
-  </div>
-</section>
 
-<!-- ================= Personal Projects ================= -->
-<section id="personal-projects" class="personal-projects">
-
-  <h3 class="section-title">
-    <span></span> Personal Projects
-  </h3>
-
-  <h4 class="section-subtitle">Web Development</h4>
 
   <div class="projects-grid">
 
-    <!-- Project 1 -->
     <a href="https://chatmate-ijgx.onrender.com/" target="_blank" class="project-card">
       <img src="./images/imagesandresume/ChatMate.png" alt="ChatMate">
       <div class="project-overlay">
@@ -307,8 +488,26 @@
         </div>
       </div>
     </a>
+    <a href="https://trackify-group-6.netlify.app/" target="_blank" class="project-card">
+      <img src="./images/trackify.png" alt="Finance Tracker">
+      <div class="project-overlay">
+        <h4>Finance Tracker</h4>
+        <p>
+          Personal finance tracker with real-time updates 
+          using React, Node.js, Socket.IO with authentication and
+          theme switching.
+        </p>
+        <div class="tech-stack">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Socket.IO</span>
+          <span>Firebase</span>
+       
+        </div>
+      </div>
+    </a>
 
-    <!-- Project 2 -->
+  
     <a href="https://design-timeline.netlify.app/" target="_blank" class="project-card">
       <img src="./images/imagesandresume/evolution of ui ux.png" alt="Evolution of UI UX">
       <div class="project-overlay">
@@ -331,31 +530,98 @@
 </section>
 
 
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
-      <div class="heading text-center">
-        <small>Get in Touch</small>
-        <h3>Let’s Work Together</h3>
-      </div>
+<!-- ================= CONTACT ================= -->
+<section class="contact-section py-5" id="contact">
+  <div class="container">
 
-      <div class="row justify-content-evenly mt-5">
-        <div class="col-md-5 col-10">
-          <p><strong>Location:</strong> Pune, Maharashtra</p>
-          <p><strong>Email:</strong> sakshimadne12345@gmail.com</p>
-          <p><strong>Phone:</strong> 7999915225</p>
-          <p>
-            <a href="https://www.linkedin.com/in/sakshi-madne-27a189269/" target="_blank">
-              LinkedIn Profile
-            </a>
-          </p>
-          <p>
-            <a href="https://github.com/sakshimadne/my-Projects" target="_blank">
-              GitHub Profile
-            </a>
-          </p>
+    <div class="text-center mb-5">
+      <h5 class="section-subtitle">Get in Touch</h5>
+      <h2 class="section-title-dark">Let’s Work Together</h2>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- LEFT CARD -->
+      <div class="col-md-5">
+        <div class="contact-card">
+
+          <div class="contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div>
+              <h6>Location</h6>
+              <p>Pune, Maharashtra</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="bi bi-envelope-fill"></i>
+            <div>
+              <h6>Email</h6>
+              <a href="mailto:sakshimadne12345@gmail.com">
+                sakshimadne12345@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="bi bi-telephone-fill"></i>
+            <div>
+              <h6>Phone</h6>
+              <a href="tel:+917999915225">
+                +91 7999915225
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="bi bi-linkedin"></i>
+            <div>
+              <h6>LinkedIn</h6>
+              <a href="https://www.linkedin.com/in/sakshi-madne-27a189269/" target="_blank">
+                View Profile
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
-    </section>
+
+      <!-- RIGHT CARD -->
+      <div class="col-md-6">
+        <div class="form-card">
+
+          <form>
+
+            <div class="mb-3">
+              <input type="text" class="form-control custom-input" placeholder="Your Name" required>
+            </div>
+
+            <div class="mb-3">
+              <input type="email" class="form-control custom-input" placeholder="Your Email" required>
+            </div>
+
+            <div class="mb-3">
+              <input type="text" class="form-control custom-input" placeholder="Subject">
+            </div>
+
+            <div class="mb-4">
+              <textarea rows="5" class="form-control custom-input" placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit" class="c-btn py-2 px-4 rounded-pill">
+              Send Message
+            </button>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -365,3 +631,5 @@
     <script src="js/script.js"></script>
   </body>
 </html>
+
+
